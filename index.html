@@ -555,6 +555,193 @@
                 class="c-propmap__fullscreen-text">Expand</span></button>
           </div>
         </div>
+        <div class="l-prop__mortgage">
+          <div class="c-prop__subtitle">Mortgage</div>
+          <div class="t--darker l-pad u-mobile-hidden">
+            <div class="o-h1 u-capfirst">Mortgage</div>
+          </div>
+          <div class="c-mortgage">
+            <div class="c-mortgage__container">
+              <div class="c-mortgage__input">
+                <div class="c-mortgage__filters">
+                  <div class="c-forms">
+                    <div class="c-forms__row">
+                      <div class="c-forms__title">Property Value</div>
+                      <div class="c-forms__cols">
+                        <div class="c-forms__col">
+                          <div class="c-forms__fields">
+                            <div class="c-forms__field c-forms__field--addon">HKD</div>
+                            <div class="c-forms__field"><input type="string" class="c-forms__input" min="1"
+                                value="1,360,000" placeholder="eg. 8,000,000" /></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="c-forms__row">
+                      <div class="c-forms__title">Down Payment</div>
+                      <div class="c-forms__cols">
+                        <div class="c-forms__col">
+                          <div class="c-forms__fields">
+                            <div class="c-forms__field c-forms__field--addon">HKD</div>
+                            <div class="c-forms__field"><input type="string" class="c-forms__input" min="1"
+                                value="680,000" placeholder="eg. 1,000,000" /></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="c-forms__row">
+                      <div class="c-forms__title">Duration</div>
+                      <div class="c-forms__cols">
+                        <div class="c-forms__col c-forms__col">
+                          <div class="c-forms__fields">
+                            <div class="c-forms__field"><input type="string" class="c-forms__input" min="1" value="30"
+                                placeholder="eg. 25" /></div>
+                            <div class="c-forms__field c-forms__field--addon">Years</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="c-forms__row l-pad-top">
+                      <div class="c-forms__cols">
+                        <div class="c-forms__col">
+                          <div class="c-forms__checkboxs">
+                            <div class="c-forms__checkbox"><input type="checkbox" id="bsd" checked="" /><label
+                                for="bsd">I am an HK Resident and non-corporate buyer</label></div>
+                            <div class="c-forms__checkbox"><input type="checkbox" id="avd" /><label for="avd">I
+                                currently own a property in Hong Kong</label></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="c-mortgage__assumptions c-mortgage__assumptions--sm">
+                    <li>Interest Rate
+                      <!-- --> =
+                      <!-- -->2.35
+                      <!-- -->
+                      <!-- -->%</li>
+                  </ul>
+                  <ul class="c-mortgage__disclaimer">
+                    <li>DISCLAIMER: The calculated value is based on assumptions and provides an approximate result for
+                      your reference only.</li>
+                  </ul>
+                  <div class="c-mortgage__actions"><a><span class="fas fa-edit"></span> <!-- -->Advanced</a></div>
+                </div>
+              </div>
+              <div class="c-mortgage__result">
+                <div class="c-mortgage__columns">
+                  <div class="c-mortgage__column c-mortgage__column--chart">
+                    <div class="c-mortgage__total">
+                      <div class="c-mortgage__chart"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                          viewBox="0 0 400 400">
+                          <style>
+                            .svg-donut-caption {
+                              font-size: 10pt;
+                              fill: #666;
+                              font-family: Open Sans, Helvetica, sans;
+                            }
+
+                            .svg-donut-center {
+                              letter-spacing: -1px;
+                              font-weight: bold;
+                              font-size: 30pt;
+                              fill: #333;
+                              font-family: Oswald, Impact, sans;
+                            }
+
+                            .svg-donut-sector {
+                              cursor: pointer;
+                              transition: all 0.1s ease-out;
+                            }
+
+                            .svg-donut-legend-circle {
+                              transition: all 0.1s ease-out;
+                            }
+
+                            .svg-donut-legend {
+                              cursor: pointer;
+                            }
+
+                            .svg-donut-legend--active {
+                              color: #000;
+                              text-decoration: underline;
+                            }
+                          </style>
+                          <g transform="translate(80 200)">
+                            <g mask="url(#587e6acd-d2cc-41f8-855d-2f90962e4e73)">
+                              <path class="svg-donut-sector" fill="orange" d="M 0 0 V -180 A 180 180 0 0 1 0 180 Z"
+                                transform="rotate(0)">
+                                <title>680K</title>
+                              </path>
+                            </g>
+                            <mask id="587e6acd-d2cc-41f8-855d-2f90962e4e73">
+                              <rect x="-200" y="-200" fill="white" width="400" height="400"></rect>
+                              <circle fill="black" r="120"></circle>
+                            </mask>
+                          </g>
+                          <g transform="translate(285 395)" class="svg-donut-caption">
+                            <g transform="translate(0 -12)">
+                              <circle class="svg-donut-legend-circle" r="8" cx="5" cy="5" fill="orange"></circle><text
+                                class="svg-donut-legend " x="18" y="10">
+                                <title>680K</title>Down Payment
+                              </text>
+                            </g>
+                          </g>
+                          <g transform="translate(90 200)"><text width="120" x="-80" y="-4"
+                              class="svg-donut-center"></text><text width="30" x="40" y="-4"
+                              class="svg-donut-caption">HKD</text><text width="120" x="-80" y="14"
+                              class="svg-donut-caption">Total Expenses</text></g>
+                        </svg></div>
+                    </div>
+                  </div>
+                  <div class="c-mortgage__column  c-mortgage__column--payment">
+                    <div class="c-mortgage__rows">
+                      <div class="c-mortgage__row">
+                        <div class="c-mortgage__monthly">
+                          <div class="c-mortgage__title">Monthly Payment</div>
+                          <div class="c-mortgage__payment"><span class="c-mortgage__amount">HKD
+                              <!-- -->
+                              <!-- -->0</span><span class="c-mortgage__unit">
+                              <!-- -->/mo</span></div>
+                        </div>
+                      </div>
+                      <div class="c-mortgage__row">
+                        <div class="c-mortgage__monthly">
+                          <div class="c-mortgage__title">Total Cash Outlay</div>
+                          <div class="c-mortgage__payment"><span class="c-mortgage__amount">HKD
+                              <!-- -->
+                              <!-- -->0</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="c-mortgagesm c-mortgagesm--lr">
+            <div class="c-mortgagesm__container c-mortgagesm--more">
+              <div class="c-mortgagesm__icon"><span class="fas fa-university"></span></div>
+              <div class="c-mortgagesm__body c-mortgagesm__body--valign">
+                <div class="c-mortgagesm__text">
+                  <div class="c-mortgagesm__text--left">HKD
+                    <!-- -->
+                    <!-- -->/mo</div>
+                </div>
+                <div class="c-mortgagesm__caption">@
+                  <!-- -->2.35
+                  <!-- -->%
+                  <!-- -->,
+                  <!-- -->30
+                  <!-- -->
+                  <!-- -->yrs</div>
+                <div class="c-mortgagesm__more">Custom</div>
+              </div>
+            </div>
+            <div class="c-mortgagesm__disclaimer">DISCLAIMER: The calculated value is based on assumptions and provides
+              an approximate result for your reference only.</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
